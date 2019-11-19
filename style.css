@@ -1,18 +1,54 @@
 html{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #242582;
 }
 
 .header{
     text-transform: uppercase;
     text-align: center;
+    
 }
+
+.header-top{
+    height: 5vh;
+    background-color: #F64C72;
+    margin: 5vh;
+    
+}
+
+.header-bot{
+    color: white;
+    text-decoration: underline;
+}
+
 
 .crabrave{
     font-family: 'Quicksand', sans-serif;
     height: 20vh;
     font-size: x-large;
     letter-spacing: 12px;
+}
+
+.dogs{
+    position: absolute;
+    transform: translate(0, 150%);
+}
+
+#zacian{
+    position: absolute;
+    transform: translate(100%, 25%);
+
+}
+
+#zamazenta{
+    position: absolute;
+    transform: translate(290%, 25%);
+
 }
 
 img{
