@@ -1,6 +1,7 @@
 html{
     margin: 0;
     padding: 0;
+    font-size: 62.5%;
     box-sizing: border-box;
 }
 
@@ -11,32 +12,39 @@ body{
 .header{
     text-transform: uppercase;
     text-align: center;
+    font-size: 1.625rem;
     
 }
 
 .header-top{
-    height: 5vh;
     background-color: #F64C72;
     margin: 5vh;
+    padding: 2vh;
+    border: 3px solid aqua;
     
 }
 
 .header-bot{
     color: white;
     text-decoration: underline;
+    position: absolute;
+    transform: translate(162.5%, 30%);
+    z-index: 1;
 }
 
 
 .crabrave{
     font-family: 'Quicksand', sans-serif;
     height: 20vh;
-    font-size: x-large;
-    letter-spacing: 12px;
+    font-size: 2.5rem;
+    letter-spacing: 1.25rem;
+    z-index: 2;
 }
 
 .dogs{
     position: absolute;
-    transform: translate(0, 150%);
+    transform: translate(50%, 150%);
+    font-size: 1.6rem;
 }
 
 #zacian{
