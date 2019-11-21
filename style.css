@@ -6,17 +6,23 @@ html{
 }
 
 body{
-    background-color: #242582;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(36,37,130,.75),
+        rgba(36,37,200,.75)
+    ),
+    url(Galar.jpg);
+    background-size: cover;
 }
 
 .header{
     text-transform: uppercase;
     text-align: center;
     font-size: 1.625rem;
-    
+    font-family: 'Calistoga', cursive;
 }
 
-.header-top{
+.headerbg{
     background-color: #F64C72;
     margin: 5vh;
     padding: 2vh;
@@ -24,11 +30,12 @@ body{
     
 }
 
-.header-bot{
+.crabtext{
     color: white;
     text-decoration: underline;
     position: absolute;
-    transform: translate(162.5%, 30%);
+    top: 27%;
+    left: 38.3%;
     z-index: 1;
 }
 
@@ -38,26 +45,35 @@ body{
     height: 20vh;
     font-size: 2.5rem;
     letter-spacing: 1.25rem;
-    z-index: 2;
+    z-index: 2;    
 }
 
 .dogs{
     position: absolute;
-    transform: translate(50%, 150%);
+    bottom: 0%;
+    right: 0%;
     font-size: 1.6rem;
+    color: #FF3B3F;
+    
 }
+
+
 
 #zacian{
     position: absolute;
-    transform: translate(100%, 25%);
+    bottom: 75%;
+    left: -25%;
 
 }
 
 #zamazenta{
     position: absolute;
-    transform: translate(290%, 25%);
+    bottom: 75%;
+    left: 10%
 
 }
+
+
 
 img{
     height: 20vh;
